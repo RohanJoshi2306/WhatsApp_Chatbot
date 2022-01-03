@@ -12,6 +12,8 @@ runtime, requirements and procfiles are required by heroku to deploy app in spec
 
 app.py uses Flask and requests to redirect requests to specific paths by using route method on a specific existing path.
 util.py has methods for detecting intents for bot and fetching the reply. It also contains project id and required json file which itself contains metadata and private key for dialogflow.
+requirements.txt contains required packages which you can check from your terminal open in your environment. Just use following command.
+$ pip freeze
 
 I'm not providing the actual json file as it contains private keys. You can generaate one for yourself by visiting dialogflow
 
